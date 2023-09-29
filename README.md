@@ -2,7 +2,7 @@
 TBC IT Academy | iOS development Course | Assignment #3
 
 ## Assignment Goal
-The goal of the assignment is to get familiar with coding, sharpen coding skills and use newly acquired knowladge in Swift Collection types.
+The goal of the assignment is to get familiar with coding, sharpen coding skills and use newly acquired knowladge in Swift Collection Types.
 The assignment covers the following topics: 
 * Arrays
 * Sets
