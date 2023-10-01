@@ -50,9 +50,9 @@ task(for: "4. შექმენით Double-ების array, შეავ�
     let doubles = [-3.56789012, 3.1415926, -1.2345678901, 2.718281828]
     var maxValue: Double = doubles[0]
     
-    for i in 0..<doubles.count {
-        if maxValue < doubles[i] {
-            maxValue = doubles[i]
+    for element in doubles {
+        if maxValue < element {
+            maxValue = element
         }
     }
     print(maxValue)
@@ -61,9 +61,9 @@ task(for: "4. შექმენით Double-ების array, შეავ�
 
 task(for: "5. შექმენით ორი Int-ების array, შეავსეთ პირველი array 8, 4, 9, 9, 0, 2, და მეორე array 1, 0, 9, 2, 3, 7, 0, 1 ამ რიცხვებით. გააერთიანეთ ეს ორი array ერთ დასორტილ array-ში, ანუ შედეგი უნდა მიიღოთ ასეთი: 0, 0, 0, 1, 1, 2, 2, 3, 4, 7, 8, 9, 9, არ გამოიყენოთ sorted() ან რაიმე სხვა უკვე არსებული მეთოდი swift-იდან. დაბეჭდეთ მიღებული დასორტილი array.") {
     
-    let intergerArray = [8, 4, 9, 9, 0, 2]
-    let intergerArray1 = [1, 0, 9, 2, 3, 7, 0, 1]
-    let integratedArray = intergerArray + intergerArray1
+    let integerArray = [8, 4, 9, 9, 0, 2]
+    let integerArray1 = [1, 0, 9, 2, 3, 7, 0, 1]
+    let integratedArray = integerArray + integerArray1
     print(integratedArray.count)
     
     var sortedArray = integratedArray
@@ -132,7 +132,7 @@ task(for: "8. შექმენით ორი String-ის Set. შეამ
     if orderedFoodAllergens.isSubset(of: allAllergens) {
         print("The food you ordered classifies as allergenic")
     } else {
-        print("The food you ordered is free of allergenes")
+        print("The food you ordered is free of allergens")
     }
 }
 
